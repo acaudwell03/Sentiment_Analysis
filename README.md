@@ -8,3 +8,9 @@ This includes:
 * random_forest.ipynb: Data preprocessing, training, evaluation, and demonstration for random forest model
 * roberta.ipynb: Data preprocessing, training, evaluation, and demonstration for RoBERTa model
 * stats.r: Statistical analysis between models, including ANOVA and correlation analysis
+
+Results demonstrated: 
+* RoBERTa model performed better than the RF and CNN models, achieving an average F1-score of 71%
+* RF model performed better with emotions with less samples (e.g. Grief, Pride)
+* Weak positive correlation was found between sample size and performance
+* SHAP Analysis shows how the RoBERTa model is able to use context to differentiate between similar emotions
